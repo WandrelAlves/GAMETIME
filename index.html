@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>GAMETIME</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script src="assets/js/jquery.min.js"></script>
+</head>
+
+<body class="landing is-preload">
+    <script>
+        window.addEventListener('mouseover', initLandbot, {
+            once: true
+        });
+        window.addEventListener('touchstart', initLandbot, {
+            once: true
+        });
+        var myLandbot;
+
+        function initLandbot() {
+            if (!myLandbot) {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.addEventListener('load', function() {
+                    var myLandbot = new Landbot.Livechat({
+                        configUrl: 'assets/landbot/index.json',
+                    });
+                });
+                s.src = 'assets/landbot/landbot-3.0.0.js';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+        }
+    </script>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+        <!-- Header -->
+        <header id="header">
+            <h1>
+                <a class="headerletrasindex" href="/"><img src="images/imagem menor/5.png" alt=""></a>
+            </h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/esports">MUNDO E-SPORTS</a></li>
+                                <li><a href="/sobrenos">Sobre Nós</a></li>
+                                <div class="divisao">
+                                    <hr/>
+                                </div>
+                                <li><a href="/jogos/retro">Jogos Retro</a></li>
+                                <li><a href="/jogos/terror">Jogos de Terror</a></li>
+                                <li><a href="/jogos/mobile">Jogos Mobile</a></li>
+                                <li><a href="/jogos/acao">Jogos de ação e aventura</a></li>
+                                <li><a href="/jogos/fps">Jogos FPS</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h2>GameTime</h2>
+                <p>O maior site sobre Jogos e E-sports do Brasil</p>
+            </div>
+            <a href="#one" class="more scrolly">Saiba mais</a>
+        </section>
+
+        <!-- One -->
+        <section id="one" class="wrapper style1 special">
+            <div class="inner">
+                <header class="major">
+                    <h2>JOGOS EM DESTAQUE</h2>
+                </header>
+
+            </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two" class="wrapper alt style2">
+            <section class="spotlight">
+                <div class="image">
+                    <div class="video-container"><iframe src="https://www.youtube.com/embed/L0Fr3cS3MtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+                <div class="content content-som">
+                    <h2>Assassin's Creed Valhalla</h2>
+                    <a class="playsound button primary" href="javascript:playSound('assassins-creed');"><img src="images/sound.png" class="sound-icon" alt="Play Sound" /></a>
+                    <audio id="assassins-creed" src="audio/assassins-creed.mp3" preload="auto"></audio>
+                    <p>Navegue pelo gelado Mar do Norte para descobrir e conquistar os reinos divididos da Inglaterra. Realize atividades de caça, pesca, dados e bebida, ou participe de competições nórdicas tradicionais de insultos - ou, como mais conhecidas,
+                        rivais verbalmente devastadores por meio da arte de combate Viking de versos ofensivos.</p>
+
+                </div>
+            </section>
+            <div class="divisao">
+                <hr>
+            </div>
+            <section class="spotlight">
+                <div class="image">
+                    <div class="video-container"><iframe src="https://www.youtube.com/embed/qIQ3xNqkVC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+                <div class="content content-som">
+                    <a class="playsound button primary" href="javascript:playSound('miranha');"><img src="images/sound.png" class="sound-icon" alt="Play Sound" /></a>
+                    <audio id="miranha" src="audio/miranha.mp3" preload="auto"></audio>
+                    <h2>Marvel's Spider-Man 2 - PlayStation</h2>
+                    <p>Estamos muito empolgados para dar continuidade à jornada de Peter Parker e Miles Morales na aventura para um jogador mais épica até o momento, que chegará exclusivamente aos consoles PlayStation 5 em 2023.</p>
+                </div>
+            </section>
+            <div class="divisao">
+                <hr>
+            </div>
+            <section class="spotlight">
+                <div class="image">
+                    <div class="video-container"><iframe src="https://www.youtube.com/embed/EE-4GvjKcfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+                <div class="content content-som">
+                    <h2>God of War Ragnarok</h2>
+                    <a class="playsound button primary" href="javascript:playSound('god-of-war');"><img src="images/sound.png" class="sound-icon" alt="Play Sound" /></a>
+                    <audio id="god-of-war" src="audio/god-of-war.mp3" preload="auto"></audio>
+                    <p>A nova aventura de Kratos e Atreus, ambientada anos após o título de 2018, é uma tragédia premeditada. Como o próprio nome do game já adianta, o segundo jogo da nova saga trará o Ragnarok, o apocalipse da mitologia nórdica que leva
+                        ao fim dos tempos. Depois do pai e do filho causarem muita destruição por alguns dos Nove Reinos, eles deram início aos eventos que vão acabar com tudo, de Midgard a Asgard, e "recomeçar" o mundo.</p>
+
+                </div>
+            </section>
+            <div class="divisao">
+                <hr>
+            </div>
+            <section class="spotlight">
+                <div class="image">
+                    <div class="video-container"><iframe src="https://www.youtube.com/embed/Qge5m24C5qs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+                <div class="content content-som">
+                    <h2>Resident Evil Village</h2>
+                    <a class="playsound button primary" href="javascript:playSound('resident-village');"><img src="images/sound.png" class="sound-icon" alt="Play Sound" /></a>
+                    <audio id="resident-village" src="audio/resident-village.mp3" preload="auto"></audio>
+                    <p>Resident Evil: Village, conhecido no Japão como Biohazard: Village é um jogo eletrônico de survival horror desenvolvido e publicado pela Capcom. É a sequência de Resident Evil 7: Biohazard, de 2017, e foi anunciado pela primeira vez
+                        no evento de revelação do PlayStation 5 em 11 de junho de 2020.</p>
+
+                </div>
+            </section>
+        </section>
+
+        <section id="banner">
+            <section id="aaa" class="wrapper alt style2"></section>
+            <br>
+
+            <div class="content">
+                <h2>Navegue livremente pelo menu do site</h2>
+
+                <a href="#one" class="more scrolly">Voltar ao topo</a>
+                </ul>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="divisao">
+                <hr>
+            </div>
+            <ul class="copyright">
+                <li>&copy; Gametime</li>
+                <li>Design by: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Clique Aqui</a></li>
+            </ul>
+        </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script>
+            function playSound(name) {
+                var audio = document.getElementById(name)
+
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
+            }
+        </script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

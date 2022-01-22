@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Jogos Retro</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript>
+		<link rel="stylesheet" href="../assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+    <script>
+        window.addEventListener('mouseover', initLandbot, {
+            once: true
+        });
+        window.addEventListener('touchstart', initLandbot, {
+            once: true
+        });
+        var myLandbot;
+
+        function initLandbot() {
+            if (!myLandbot) {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.addEventListener('load', function() {
+                    var myLandbot = new Landbot.Livechat({
+                        configUrl: '../assets/landbot/index.json',
+                    });
+                });
+                s.src = '../assets/landbot/landbot-3.0.0.js';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+        }
+    </script>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1>
+                <a class="headerletras" href="/jogos/retro"><img src="../images/Fotos e ícones/Ícones para o site/retro.png" alt=""></a>
+            </h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/esports">MUNDO E-SPORTS</a></li>
+                                <li><a href="/sobrenos">Sobre Nós</a></li>
+                                <div class="divisao">
+                                    <hr/>
+                                </div>
+                                <li><a href="/jogos/retro">Jogos Retro</a></li>
+                                <li><a href="/jogos/terror">Jogos de Terror</a></li>
+                                <li><a href="/jogos/mobile">Jogos Mobile</a></li>
+                                <li><a href="/jogos/acao">Jogos de ação e aventura</a></li>
+                                <li><a href="/jogos/fps">Jogos FPS</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <article id="mainRetro">
+            <header>
+                <h2>Jogos Retro</h2>
+                <p>jogos que marcaram gerações</p>
+            </header>
+
+            <section id="two" class="wrapper alt style2">
+                <section class="spotlight">
+                    <div class="image">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/rLl9XBg7wSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="content content-som">
+                        <h2>Mario Brothers: o pai dos jogos antigos</h2>
+                        <a class="playsound button primary" href="javascript:playSound('mario');"><img src="../images/sound.png" class="sound-icon" alt="Play Sound" /></a>
+                        <audio id="mario" src="../audio/mario.mp3" preload="auto"></audio>
+                        <p>Mario, o encanador mais famoso do mundo dos games, e seu irmão Luigi, são certamente um dos maiores fenômenos da história dos videogames. <br>Tanto que os títulos da franquia, lançada nos anos 80, fazem sucesso até hoje e acompanham
+                            a evolução das plataformas. O objetivo básico do jogo é enfrentar as tartarugas e outras criaturas em inúmeras fases e níveis. A jogabilidade é horizontal e bastante simples. Basta fazer Mário correr e pular.</p>
+
+                    </div>
+                </section>
+                <div class="divisao">
+                    <hr> </div>
+                <section class="spotlight">
+                    <div class="image">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/Pp2aMs38ERY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="content content-som">
+                        <h2>Donkey Kong</h2>
+                        <a class="button primary playsound" href="javascript:playSound('donkey');"><img src="../images/sound.png" class="sound-icon" alt="Play Sound" /></a>
+                        <audio id="donkey" src="../audio/donkey.mp3" preload="auto"></audio>
+                        <p>O famoso macaco Donkey Kong apareceu pela primeira vez em 1983. Para você ter uma ideia, ele era um dos inimigos do Mário, na época chamado ainda de Jumpman. Não se engane: nesse primeiro título de Donkey Kong, também lançado em
+                            fliperamas, você ainda joga com o Mário, quer dizer, o Jumpman.</p>
+                        <p>O jogo rodava na plataforma Atari, uma das pioneiras do mundo dos videogames. O visual é bastante rudimentar, com gráficos muito simples. A jogabilidade também é muito limitada. Mas com certeza aquele sentimento nostálgico vai
+                            tomar conta. Vale a pena conferir</p>
+
+                    </div>
+                </section>
+                <div class="divisao">
+                    <hr> </div>
+                <section class="spotlight">
+                    <div class="image">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/JzJd7GzLkuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="content content-som">
+                        <h2>Wolfenstein 3D</h2>
+                        <a class="playsound button primary" href="javascript:playSound('Wolfenstein');"><img src="../images/sound.png" class="sound-icon" alt="Play Sound" /></a>
+                        <audio id="Wolfenstein" src="../audio/Wolfenstein.mp3" preload="auto"></audio>
+                        <p>Temos aqui o pai de todos os jogos de tiro em primeira pessoa do mundo dos games. O game foi lançado em 1990 e na época foi um estouro, tamanho o realismo do cenário 3D (para a época, é claro), que permitia explorar espaços e matar
+                            soldados nazistas.</p>
+                        <p>O game de temática militar tem vários níveis de dificuldade. O maior deles é o I’m Evil Incarnation?, somente para os viciados.</p>
+
+                    </div>
+                </section>
+                <div class="divisao">
+                    <hr> </div>
+                <section class="spotlight">
+                    <div class="image">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/B1FEHo_RcNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="content content-som">
+                        <h2>Sonic the Hedgehog</h2>
+                        <a class="playsound button primary" href="javascript:playSound('Sonic');"><img src="../images/sound.png" class="sound-icon" alt="Play Sound" /></a>
+                        <audio id="Sonic" src="../audio/Sonic.mp3" preload="auto"></audio>
+                        <p>Enquanto a Nintendo ganhava uma legião de seguidores com Mário e sua turma, a Sega vinha na outra ponta com o seu porco-espinho Sonic. O título foi lançado inicialmente para Master System e depois passou para o Mega Drive. A grande
+                            diferença desse clássico para o seu principal concorrente era a velocidade: o personagem Sonic esbanjava energia e passava quase voando pela tela, detonando os inimigos e colecionando as argolinhas.</p>
+
+                    </div>
+                </section>
+                <div class="divisao">
+                    <hr> </div>
+                <section class="spotlight">
+                    <div class="image">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/iFnOLFd_ByQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="content content-som">
+                        <h2>Doom 1 e 2</h2>
+                        <a class="playsound button primary" href="javascript:playSound('doom12');"><img src="../images/sound.png" class="sound-icon" alt="Play Sound" /></a>
+                        <audio id="doom12" src="../audio/doom12.mp3" preload="auto"></audio>
+                        <p>O Doom foi lançado pela mesma desenvolvedora do Wolfenstein 3D e é um dos jogos antigos de tiro mais populares. Na verdade, é uma referência nessa modalidade, mais ainda do que seu antecessor. O Doom trazia uma visível evolução
+                            dos gráficos e na jogabilidade, além de ter mais monstros, armas, habilidades, itens especiais, cenários e fases.</p>
+                        <p>A atmosfera de Doom é mais violenta, com soldados inimigos e também monstros assustadores. Para quem gosta de jogos de tiro, Doom é indispensável!</p>
+                        <p>Sem contar a trilha sonora.. uma das melhores que já existiu.</p>
+
+                    </div>
+                </section>
+                <div class="divisao">
+                    <hr> </div>
+                <section class="spotlight">
+                    <div class="image">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/aXb3q62X7Us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="content content-som">
+                        <h2>Final Fantasy</h2>
+                        <a class="playsound button primary" href="javascript:playSound('ff');"><img src="../images/sound.png" class="sound-icon" alt="Play Sound" /></a>
+                        <audio id="ff" src="../audio/final-fantasy.mp3" preload="auto"></audio>
+                        <p>Para fechar nossa lista, não poderíamos deixar de citar o arrasa-quarteirões Final Fantasy. Essa franquia de games lançada ainda no Nintendinho, o primeiro console da Nintendo ganhou muita popularidade no Playstation. É considerado
+                            por muitos games o principal jogo de RPG (Role Playing Game) de todos os tempos.</p>
+                        <p>Tanto que foram lançadas dezenas de edições do game, todas com enredos diferentes. E são justamente os enredos o diferencial aqui. A cada edição, o game se superava na história e na jogabilidade. O mais recente lançado foi o remake
+                            impressionante de Final Fantasy VII, para Playstation 4. Mas esse pode ser assunto para outro post.</p>
+                    </div>
+                </section>
+            </section>
+        </article>
+
+        <section id="banner">
+            <section id="aaa" class="wrapper alt style2"></section>
+            <br>
+
+            <div class="content">
+                <h2>Navegue livremente pelo menu do site</h2>
+
+                <a href="#mainRetro" class="more scrolly">Voltar ao topo</a>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="divisao">
+                <hr>
+            </div>
+            <ul class="copyright">
+                <li>&copy; Gametime</li>
+                <li>Design by: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Clique Aqui</a></li>
+            </ul>
+        </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script>
+            function playSound(name) {
+                var audio = document.getElementById(name)
+
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
+            }
+        </script>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery.scrollex.min.js"></script>
+        <script src="../assets/js/jquery.scrolly.min.js"></script>
+        <script src="../assets/js/browser.min.js"></script>
+        <script src="../assets/js/breakpoints.min.js"></script>
+        <script src="../assets/js/util.js"></script>
+        <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
