@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Gametime - Erro</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript>
+		<link rel="stylesheet" href="../assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload" style="background-color: black;">
+    <script SameSite="None; Secure" src="https://static.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+    <script>
+        window.addEventListener('mouseover', initLandbot, {
+            once: true
+        });
+        window.addEventListener('touchstart', initLandbot, {
+            once: true
+        });
+        var myLandbot;
+
+        function initLandbot() {
+            if (!myLandbot) {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.addEventListener('load', function() {
+                    var myLandbot = new Landbot.Livechat({
+                        configUrl: 'assets/landbot/index.json',
+                    });
+                });
+                s.src = 'assets/landbot/landbot-3.0.0.js';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+        }
+    </script>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1>
+                <a class="headerletrasindex" href="/"><img src="images/imagem menor/5.png" alt=""></a>
+            </h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/esports">MUNDO E-SPORTS</a></li>
+                                <li><a href="/sobrenos">Sobre Nós</a></li>
+                                <div class="divisao">
+                                    <hr/>
+                                </div>
+                                <li><a href="/jogos/retro">Jogos Retro</a></li>
+                                <li><a href="/jogos/terror">Jogos de Terror</a></li>
+                                <li><a href="/jogos/mobile">Jogos Mobile</a></li>
+                                <li><a href="/jogos/acao">Jogos de ação e aventura</a></li>
+                                <li><a href="/jogos/fps">Jogos FPS</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <article id="mainError">
+            <header>
+                <h2>Ops! Parece que algo deu errado!</h2>
+                <p>Esta página não está disponível no momento, mas fique à vontade para acessar as outras pelo menu ao lado</p>
+            </header>
+            </section>
+
+        </article>
+
+        <!-- Footer -->
+        <footer id="footer" class="footer-error">
+            <ul class="copyright">
+                <li>&copy; Gametime</li>
+                <li>Design by: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Clique Aqui</a></li>
+            </ul>
+        </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery.scrollex.min.js"></script>
+        <script src="../assets/js/jquery.scrolly.min.js"></script>
+        <script src="../assets/js/browser.min.js"></script>
+        <script src="../assets/js/breakpoints.min.js"></script>
+        <script src="../assets/js/util.js"></script>
+        <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

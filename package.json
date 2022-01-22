@@ -1,0 +1,30 @@
+{
+    "name": "gametime",
+    "version": "1.0.0",
+    "description": "Nós somos um grupo de estudantes de Sistemas de Informação e fizemos esse projeto com o intuito de passar nosso conhecimento e informação sobre o mundo dos jogos e executar funções de acessibilidade e usabilidade aprendidas em sala.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "startDev": "nodemon .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PHSebastiao/gametime.git"
+    },
+    "keywords": [
+        "css", "html", "responsive", "expressjs", "express", "jquery", "javascript"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/PHSebastiao/gametime/issues"
+    },
+    "homepage": "https://gametime-2021.herokuapp.com/",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
